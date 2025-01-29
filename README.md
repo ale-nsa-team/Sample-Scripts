@@ -3,7 +3,7 @@ This repository contains sample scripts for various automation and network-relat
 ## Usage
 - Clone the repository:
   ```bash
-  git clone https://github.com/your-org/sample-scripts.git
+  git clone https://github.com/ale-nsa-team/sample-scripts.git
   ```
 - Explore the scripts and adapt them to your needs.
 ## Contributing
