@@ -1,0 +1,13 @@
+############# Switch Config ########################################
+saa "camera1" descr "PING-IP-CAMERA1" interval 1
+saa "camera1" type ip-ping destination-ip 10.1.1.1 source-ip 10.1.1.254 type-of-service 4
+saa "camera1" start
+
+saa "camera2" descr "PING-IP-CAMERA2" interval 1
+saa "camera2" type ip-ping destination-ip 10.1.1.2 source-ip 10.1.1.254 type-of-service 4
+saa "camera2" start
+
+event-action script-time-limit 30
+event-action trap alaSaaIPIterationCompleteTrap script /flash/python/check-camera.py
+
+#####################################################################

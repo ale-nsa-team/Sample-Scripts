@@ -1,0 +1,17 @@
+Core1:
+   ip: 10.255.128.202
+   username: admin
+   password: switch
+   name: SE-LAB-C1
+
+Dist1:
+   ip: 10.255.128.206
+   username: admin
+   password: switch
+   name: SE-LAB-D1
+
+Access1:
+   ip: 10.255.128.209
+   username: admin
+   password: switch
+   name: SE-LAB-A2
